@@ -3,9 +3,8 @@
  *
  * Return 0
  */
-#include <stdio.h>
-/* Entry point */
-int main(void)
+#include <stdio.h>/* Preprecessor */
+int main()/* Entry point */     
 {
 	/* Declaration of varibles */
 	char alphabet_lower = 'a';

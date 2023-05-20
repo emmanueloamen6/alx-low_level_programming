@@ -1,17 +1,19 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>  /* Preprocessor */
+#include <stdio.h>  /* Preprocessor directive */
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
 /**
- * Main - This program will assign a random number to the variable
+ * Main - Entry point
  *
- * return: Always 0
+ * Description: A program that assign random numbers to variables
+ *
+ * return: 0
  */
-int main(void)    /* Entry point */
+int main(void)
 {
-	int n;
+	int n;	/* Declaration of variable */
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -24,7 +26,7 @@ int main(void)    /* Entry point */
 	{
 		printf("%d is zero", n);
 	}
-	else if (n < 0)
+	else
 	{
 		printf("%d is negative", n);
 	}
