@@ -1,15 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>  /* Preprocessor directive */
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 /**
  * Main - Entry point
  *
  * Description: A program that assign random numbers to variables
  *
- * return: 0
+ * return: Always (0) (success)
  */
 int main(void)
 {
@@ -20,15 +17,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-	printf("%d is positive", n);
+	printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("%d is zero", n);
+		printf("%d is zer\no", n);
 	}
 	else
 	{
-		printf("%d is negative", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
