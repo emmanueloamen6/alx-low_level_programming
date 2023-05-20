@@ -1,16 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+#include <stdio.h>  /* Preprocessor */
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
 /**
+ * Main - This program will assign a random number to the variable
  *
- * Main: This program will assign a random number to the variable
- *
- * return always 0
+ * return: Always 0
  */
-int main(void)
+int main(void)    /* Entry point */
 {
 	int n;
 
@@ -25,7 +24,7 @@ int main(void)
 	{
 		printf("%d is zero", n);
 	}
-	else
+	else if (n < 0)
 	{
 		printf("%d is negative", n);
 	}
