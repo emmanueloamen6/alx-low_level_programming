@@ -1,19 +1,17 @@
+#include <stdio.h>
 /**
- * Main - program that prints the alphabet in lowercase
+ * main - Entry point
+ * Description: it wil print alphabet in lowercase
  *
- * Return 0
+ * Return: 0 (successful execution)
  */
-#include <stdio.h>/* Preprecessor */
-int main()/* Entry point */     
+int main(void)
 {
-	/* Declaration of varibles */
 	char alphabet_lower = 'a';
-	/* Conditional statement */
+
 	while (alphabet_lower <= 'z')
 {
-	/* Execution */
 	putchar (alphabet_lower);
-	/* Increment statement */
 	alphabet_lower++;
 }
 	putchar ('\n');
