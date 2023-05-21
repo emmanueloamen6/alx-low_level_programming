@@ -1,8 +1,8 @@
 #include <stdio.h>	/* Preprocessing directive */
 /**
  *main - Entry point
- *description: 'print the alphabet in lowercase and uppercase'
- *return: Always (0) (successful)
+ *Description: print the alphabet in lowercase and uppercase
+ *Return: Always 0 (successful)
  */
 int main(void)	/* Entry point */
 {
