@@ -2,19 +2,15 @@
 /**
  * main - Entry point
  * Description: it will print all the lowercase letters except q and e
- *
- * return: (0) (successful execution)
+ * Return: (0) (successful execution)
  */
 int main (void)
 {
-	char 'q', 'e', letter_lower = 'a';
+	char letter_lower, 'e', 'q';
 
-	while (letter_lower <= 'z')
-	if (letter_lower != e && letter_lower != q)
+	for (letter_lower = 'a'; letter_lower <= 'z'; letter_lower++)
 	{
-		letter_lower++;
-	}
-	{
+		if (letter_lower != e && letter_lower != q);
 		putchar(letter_lower);
 	}
 	putchar('\n');
