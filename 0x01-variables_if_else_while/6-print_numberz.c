@@ -11,9 +11,10 @@ int main(void)
 
 	for (num = 0; num < 10; num++)
 	{
-		char charnum = '0' + num;
-
-		putchar(charnum);
+		while (-num == num)
+		{
+			putchar('-num');
+		}
 	}
 	{
 		putchar('\n');
