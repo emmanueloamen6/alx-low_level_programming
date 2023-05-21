@@ -1,9 +1,8 @@
 #include <stdio.h>	/* Preprocessing directive */
 /**
- * main - Entry point
- * Description - it print the lowercase, and the uppercase of alphabet
- * 
- * return: (0)(sucessful execution)
+ *main - Entry point
+ *description: 'print the alphabet in lowercase and uppercase'
+ *return: Always (0) (successful)
  */
 int main(void)	/* Entry point */
 {
@@ -18,5 +17,5 @@ int main(void)	/* Entry point */
 		putchar(Alphabet);
 	}
 	putchar('\n');
-	return (0);
+	return (0);	/* successful execution */
 }
