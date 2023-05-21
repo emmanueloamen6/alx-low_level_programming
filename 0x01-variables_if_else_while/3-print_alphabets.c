@@ -1,21 +1,22 @@
-#include <stdio>
+#include <stdio.h>	/* Preprocessing directive */
 /**
- * Main : entry point
- *
- * Description: a program that print lowercase and uppercase alphabet
- * return 0
+ * main - Entry point
+ * Description - it print the lowercase, and the uppercase of alphabet
+ * 
+ * return: (0)(sucessful execution)
  */
-int main(void)
+int main(void)	/* Entry point */
 {
-	char	alphabet_lower, alphabet_upper;	/* Declaration of Variable */
+	char Alphabet;	/* Declaration of variable */
 
-	char	alphabet_lower = 'a', alphabet_upper = 'A';	/* Assignment of Variable */
-	while (alphabet_lower <= 'z', alphabet_upper <= 'Z')
+	for (Alphabet = 'a'; Alphabet <= 'z'; Alphabet++)
 	{
-		putchar(alphabet_lower);
-		putchar(alphabet_upper);
+		putchar(Alphabet);
+	}
+	for (Alphabet = 'A'; Alphabet <= 'Z'; Alphabet++)
+	{
+		putchar(Alphabet);
 	}
 	putchar('\n');
 	return (0);
 }
-
