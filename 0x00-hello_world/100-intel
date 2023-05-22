@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE=o-main.s
+export CFILE="o-main.s"
