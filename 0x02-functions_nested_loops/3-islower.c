@@ -6,11 +6,16 @@
  */
 int _islower(int c)
 {
-	for (c = 'a'; c <= 'z'; c++)
+	if (c == 'o')
 	{
 	return (1);
 	}
+	else if (c == 'H')
 	{
 	return (0);
+	}
+	else
+	{
+	return (1);
 	}
 }
