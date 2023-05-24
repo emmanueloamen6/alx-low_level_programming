@@ -6,7 +6,7 @@
  */
 int _islower(int c)
 {
-	for (c = 'a'; c <= 'a'; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
 	return (1);
 	}
