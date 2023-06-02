@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * reverse_array -
+ * reverse_array -   reverses the content of an array of integers.
+ * @a: pointer to string
+ * @n: integer
  * Reeturn:
  */
 void reverse_array(int *a, int n)
 {
 	int i, ban;
 
-	i = 0;
-	while (i < n--)
+	for (i = 0; i < n--; i++)
 	{
-		i++;
 		ban = a[i];
 		a[i] = a[n];
 		a[n] = ban;
