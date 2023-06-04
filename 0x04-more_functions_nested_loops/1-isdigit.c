@@ -4,16 +4,15 @@
  * @c: character to be printed
  * Return: 1 or 0
  */
-int _isdigit(int c);
+int _isdigit(int c)
 {
-	if (c == 48 &&  <= 57)
-
-		c = ('0' + c);
+	if (c >= 48 && c <= 57)
 	{
+		c = ('0' + c);
 		return (1);
 	}
-	else
-	{
+		else
+		{
 		return (0);
-	}
+		}
 }
