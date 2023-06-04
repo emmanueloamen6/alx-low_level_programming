@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * print_line -
- * Return:
+ * print_line -  function that draws a straight line in the terminal.
+ * @n: character to be printed
+ * Return: Nothing
  */
 void print_line(int n)
 {
@@ -14,7 +15,7 @@ void print_line(int n)
 		_putchar('_');
 		}
 		else
-		{	
+		{
 		_putchar('\n');
 		}
 	}
