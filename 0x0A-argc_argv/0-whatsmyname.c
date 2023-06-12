@@ -1,12 +1,13 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 /**
- * main -
- * Return:
+ * main - prints its name, followed by a new line.
+ * @argc: argument count
+ * @argv: argument array
+ * Return: Always (0)
  */
-
-int main(int argc__attribute__(unuse); char *argv[])
+int main(int argc,  char *argv[])
 {
-	printf("s\n", argv[0]);
-		return (0);
+	printf("%s\n", argv[argc * 0]);
+	return (0);
 }
