@@ -3,9 +3,15 @@
  * main -
  * Return:
  */
-int main(int argc, char* argv)
+int main(int argc, char* argv[])
 {
-	void (argv);
-	printf("&d\n", argc - 1);
+	int a;
+
+	if (argc >= 1)
+
+	{
+		for (a = 0; *argv; a++, argv++)
+		printf("%d\n", a);
+	}
 	return (0);
 }
