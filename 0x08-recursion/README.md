@@ -9,3 +9,10 @@ Prototype: void _puts_recursion(char *s);
 Write a function that prints a string in reverse.
 
 Prototype: void _print_rev_recursion(char *s);
+
+5. Your subconscious is looking for the dreamer
+Write a function that returns the natural square root of a number.
+
+Prototype: int _sqrt_recursion(int n);
+If n does not have a natural square root, the function should return -1
+FYI: The standard library provides a different function: sqrt. Run man sqrt to learn more.
