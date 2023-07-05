@@ -6,13 +6,13 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	size_t n_node = 0;
+	size_t no_node = 0;
 
 	while (h)
 	{
-		n_node++;
+		no_node++;
 		printf("%d\n", h->n);
 		h = h->next;
 	}
-	return (n_node);
+	return (no_node);
 }
